@@ -106,4 +106,20 @@ body, html {
     flex-shrink: 0;
 }
 
-
+.span div {
+    display: flex;
+    height: 128px;
+    padding: 24px 16px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    width: 293px;
+    color: #FFF;
+    font-family: SF Pro;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 123.529% */
+    letter-spacing: -0.32px;
+    
+}
