@@ -1,0 +1,109 @@
+* {
+    font-family: sf pro text;
+}
+/* body {
+    margin: 0px;
+} */
+/* header > a:nth-of-type(1) {
+    color: #FFF;
+    width: 100px;
+    height: 27px;
+}
+
+ul {
+
+    display: flex;
+    width: 1264px;
+    height: 56px;
+    padding: 10px 0px 10px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(10px);
+}
+
+sidebar {
+    width: 248px;
+    height: 982px;
+    flex-shrink: 0;
+    background: linear-gradient(168deg, #2E335A 1.62%, #1C1B33 95.72%);
+} */
+
+body, html {
+    height: 100%;
+}
+
+/* .header {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center; by Dima
+    
+} */
+.header {
+    display: inline-flex;
+    padding: 15px 84px 14px 24px;
+    align-items: flex-start;
+    gap: 16px;
+}
+/* .header ul {
+    display: flex;
+} */
+
+.header ul {
+    display: flex;
+    width: 1264px;
+    height: 56px;
+    padding: 10px 0px 10px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(10px);
+    color: rgba(255, 255, 255, 0.60);
+    font-family: SF Pro Text;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 146.667% */
+    letter-spacing: -0.408px;
+}
+.main {
+    display: flex;
+    
+}
+/* .sidebar {
+    width: 200px;
+    height: calc(100% - 52px);
+    
+} */
+.sidebar {
+    width: 248px;
+    height: 982px;
+    flex-shrink: 0;
+    background: linear-gradient(168deg, #2E335A 1.62%, #1C1B33 95.72%);
+}
+.content {
+    width: 1264px;
+    padding: 20px;
+    height: 982px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #2B2F53 3.16%, #1D1C34 36.05%);
+    box-shadow: -10px 30px 80px 0px rgba(59, 38, 123, 0.70);
+}
+.grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: green;
+    width: 376px;
+    height: 209px;
+    flex-shrink: 0;
+}
+
+
