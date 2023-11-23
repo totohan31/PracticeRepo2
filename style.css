@@ -106,7 +106,8 @@ body, html {
     flex-shrink: 0;
 }
 
-.span div {
+ 
+span {
     display: flex;
     height: 128px;
     padding: 24px 16px;
@@ -121,5 +122,4 @@ body, html {
     font-weight: 700;
     line-height: 21px; /* 123.529% */
     letter-spacing: -0.32px;
-    
 }
