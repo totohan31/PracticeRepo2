@@ -104,7 +104,15 @@ body, html {
     width: 376px;
     height: 209px;
     flex-shrink: 0;
+    padding-bottom: 248px;
     
+}
+.logo1 {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .img1 {
@@ -115,8 +123,9 @@ body, html {
     gap: 28px;
     flex: 100;
 }
+
 .img2 {
-    
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -139,6 +148,7 @@ body, html {
     align-items: flex-start;
     gap: 28px;
     flex: 100;
+
 }
 
 .img5 {
@@ -170,6 +180,9 @@ body, html {
  
 .span {
     width: 293px;
+    justify-content: flex-end;
+    margin-right: 16px;
+    float: right;
     color: #FFF;
     font-family: SF Pro;
     font-size: 17px;
@@ -181,13 +194,4 @@ body, html {
 
 
 
-.span4 {
-    width: 293px;
-    color: #FFF;
-    font-family: SF Pro;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px; /* 123.529% */
-    letter-spacing: -0.32px;
-}
+
